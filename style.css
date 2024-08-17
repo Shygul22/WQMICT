@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.form_data{
+    width: 50%;
+    padding: 25px;
+    margin: 25px;
+    background-color:#023047;
+    /* background-image: linear-gradient(to right, #0061ff , #60efff); */
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    color: #03ffd5;
+    
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+input[type=tel]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+
+  .container {
+    border-radius: 10px;
+    background-color: #023047;
+    padding: 20px;
+    margin: 10px;
+    color: #ffb703;
+  }
+  
+ 
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 16px;
+    padding: 15px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 16px;
+    padding: 15px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    color: #03ffd5;
+  }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
